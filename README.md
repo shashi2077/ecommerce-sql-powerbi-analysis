@@ -1,28 +1,28 @@
-# E-commerce SQL + Power BI Analysis
+# E-commerce SQL Analysis with Power BI Model Design
 
 ## Project Overview
 
-This is an end-to-end **Data Analyst portfolio project** built around a synthetic e-commerce business dataset.
+This project analyzes a synthetic e-commerce dataset using SQL. It also includes a Power BI data-model and DAX guide for building a dashboard from the same data.
 
-The project demonstrates how SQL and Power BI can be used to answer business questions related to:
+The analysis covers:
 
 - Revenue and profit
 - Monthly sales trends
-- Product/category performance
+- Product and category performance
 - Customer behavior
 - Repeat customers
 - Geographic performance
-- Order quality and status
+- Order status
 - Average Order Value
 
-## Tech Stack
+## Tools
 
-- **SQL / MySQL 8+**
-- **Power BI**
-- **DAX**
+- MySQL 8+
+- SQL
 - CSV datasets
 - Relational data modeling
-- Business KPI analysis
+- Power BI model design
+- DAX measures
 
 ## Dataset
 
@@ -33,7 +33,7 @@ The project contains:
 - **700 orders**
 - **1,782 order-item records**
 
-All records are **synthetic** and are used only for portfolio, learning and interview demonstration.
+The dataset is synthetic. No client or employer data is used.
 
 ## Business KPIs
 
@@ -47,12 +47,11 @@ All records are **synthetic** and are used only for portfolio, learning and inte
 | Highest-Revenue City | Bengaluru |
 | Highest-Revenue Month | 2025-05 |
 
-## SQL Skills Demonstrated
+## SQL Techniques Used
 
 - SELECT / WHERE
 - INNER JOIN / LEFT JOIN
 - GROUP BY
-- HAVING-style business analysis
 - Aggregate functions
 - CASE
 - Subqueries
@@ -62,16 +61,15 @@ All records are **synthetic** and are used only for portfolio, learning and inte
 - Running totals
 - Date aggregation
 
-## Power BI Skills Demonstrated
+## Power BI Design Included
 
-- Relational data modeling
-- One-to-many relationships
-- KPI cards
+The repository includes:
+- Recommended table relationships
+- KPI definitions
 - DAX measures
-- Filter context
-- Monthly trend analysis
-- Category and customer analysis
-- Dashboard planning
+- Suggested dashboard pages and visuals
+
+A Power BI `.pbix` file is **not included** in this repository.
 
 ## Repository Structure
 
@@ -89,7 +87,7 @@ ecommerce-sql-powerbi-analysis/
     └── order_items.csv
 ```
 
-## Business Questions Answered
+## Business Questions
 
 1. What are total revenue, profit and Average Order Value?
 2. How does revenue change month by month?
@@ -100,36 +98,19 @@ ecommerce-sql-powerbi-analysis/
 7. How many customers are repeat customers?
 8. Which products rank highest within each category?
 9. What does cumulative revenue growth look like?
-10. Which products perform above the average product revenue?
+10. Which products perform above average revenue?
 
-## How to Run the SQL Project
+## Run the SQL Analysis
 
-1. Create the schema using `schema.sql`.
-2. Import each CSV into the matching table.
+1. Create the tables using `schema.sql`.
+2. Import the CSV files into the matching tables.
 3. Run `analysis_queries.sql`.
-4. Compare your results with the KPI validation numbers in this README.
+4. Review the query results against the KPI summary above.
 
-## How to Build the Power BI Dashboard
+## Power BI Guide
 
-Use the four CSV files as sources and follow:
+See [powerbi_dashboard_guide.md](powerbi_dashboard_guide.md) for the data model and DAX measures.
 
-**[Power BI Dashboard Guide](powerbi_dashboard_guide.md)**
+## Data Note
 
-The guide includes:
-- Table relationships
-- Dashboard-page layout
-- DAX measures
-- KPI validation checks
-
-## Resume-Ready Project Entry
-
-**E-commerce Sales & Customer Analytics | SQL + Power BI**
-
-- Analyzed a relational e-commerce dataset containing 700 orders using MySQL.
-- Wrote SQL queries with JOINs, CTEs, subqueries and window functions to analyze revenue, profit, customers and product performance.
-- Designed Power BI relationships and DAX measures for Revenue, Profit, AOV and Profit Margin.
-- Translated query results into business KPIs and dashboard requirements.
-
-## Important Note
-
-This project does **not** represent real client or employer data. The dataset is synthetic and intended for skill demonstration.
+All names and records are synthetic and are included only as analysis data.
