@@ -121,12 +121,6 @@ The guide includes:
 - DAX measures
 - KPI validation checks
 
-## Interview Explanation
-
-A concise interview answer:
-
-> I built an e-commerce analytics project using four relational tables: customers, products, orders and order items. I used SQL joins, aggregations, CTEs, subqueries and window functions to analyze revenue, profit, customer behavior and product performance. I then designed a Power BI data model and DAX measures for executive reporting.
-
 ## Resume-Ready Project Entry
 
 **E-commerce Sales & Customer Analytics | SQL + Power BI**
