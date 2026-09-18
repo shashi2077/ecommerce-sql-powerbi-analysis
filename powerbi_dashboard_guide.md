@@ -1,4 +1,4 @@
-# Power BI Dashboard Guide
+# Power BI Build Guide
 
 ## Recommended Data Model
 
@@ -81,9 +81,9 @@ DIVIDE(
 )
 ```
 
-## Validation KPIs
+## Expected KPI Results
 
-After importing the CSV files, the main measures should be close to:
+After importing the CSV files and applying the Delivered order filter, the main measures should return:
 
 - Delivered Orders: **617**
 - Revenue: **₹1,66,36,756**
